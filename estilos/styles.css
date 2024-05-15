@@ -89,7 +89,8 @@ main{
 
 
 .primeira{
-   background: url(../images/bg-hero-mobile.svg) ;
+   background: url(../images/bg-hero-mobile.svg);
+   backdrop-filter: brightness(97%);
 }
 
 div.mock{
@@ -211,7 +212,7 @@ main > div > img{
 
 div#gratisbaixo{
     width: 90%;
-    border: 2px solid black;
+    border: none;
     border-radius: 10px;
     align-items: center;
     grid-column: 1fr;
@@ -219,12 +220,15 @@ div#gratisbaixo{
     margin: auto;
     margin-top: 100px;
     padding-bottom: 30px;
+    padding-top: 20px;
     background-color: white;
+    box-shadow: 2px 2px 5px 3px rgba(0, 0, 0, 0.137);
 }
 
 
 #gratisbaixo > button{
     color: white;
+    font-size: 0.7em;
     background-color: #ff52bf;
     width: 220px;
     padding: 10px 20px;
@@ -232,7 +236,6 @@ div#gratisbaixo{
     margin-left: 50%;
     transform: translate(-50%, 0);
     border-radius: 20px;
-    font-size: 0.7em;
     border: none;
 }
 
@@ -250,6 +253,7 @@ div#gratisbaixo{
 
 footer{
     background-color: hsl(192, 100%, 9%);
+    color: white;
     max-width: 330px;
     height: 100vh;
     border: none;
@@ -259,7 +263,51 @@ footer{
     padding-top: 100px;
     
 }
-
 #logofooter{
-    color: white;
+    padding-left: 10px;
+    background-color: white;
+}
+
+div#contatos{
+    display: grid;
+    grid-template-columns: 50px auto;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+
+div#contatos > p{
+    margin-top: 20px;
+    color: rgb(180, 180, 180);
+
+}
+
+#links{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 40px;
+    padding-left: 20px;
+}
+
+#links > a{
+    padding-top: 12px;
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+}
+
+#redes{
+    margin-top: 50px;
+    text-align: center;
+    
+}
+#redes > a{
+    padding: 10px;
+}
+#redes > a> i{
+    color: rgb(180, 180, 180);
+    padding-bottom: 20px;
+}
+
+#redes > p{
+    color: rgb(180, 180, 180);
+    font-size: 0.6em;
 }
