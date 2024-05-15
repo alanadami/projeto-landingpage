@@ -48,6 +48,12 @@ main{
 
 }
 
+#botaoheader:hover{
+    background-color: grey;
+    color: rgb(238, 235, 235);
+    cursor: pointer;
+}
+
 
 .texto > h1{
     text-align: center;
@@ -84,6 +90,11 @@ main{
     border-radius: 20px;
     font-size: 0.7em;
     border: none;
+}
+
+#botaofree:hover{
+    background-color: #ff15a9;
+    cursor: pointer;
 }
 
 
@@ -246,6 +257,11 @@ div#gratisbaixo{
     font-style: normal;
     font-size: 15px;
     margin-top: 20px;
+}
+
+#gratisbaixo > button:hover{
+    background-color: #ff15a9;
+    cursor: pointer;
 }
 
 
