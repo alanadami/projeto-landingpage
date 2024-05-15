@@ -255,12 +255,12 @@ footer{
     background-color: hsl(192, 100%, 9%);
     color: white;
     max-width: 330px;
-    height: 100vh;
     border: none;
     display: block;
     margin: auto;
     margin-top: -80px;
     padding-top: 100px;
+    padding-bottom: 30px;
     
 }
 #logofooter{
