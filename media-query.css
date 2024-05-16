@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+
+@media screen and (min-width: 600px) and (max-width: 1400px) {
+    
+    
+    body{
+        min-width: 900px;
+        
+
+    }
+
+    .primeira{        
+        display: grid;
+        grid-template-columns: auto 1fr 1fr;
+        height: 500px;
+        width: 100vw;
+        
+        
+    }
+
+    .header{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        padding: 10px;
+        height: 30%;
+               
+    }
+
+    div.texto{
+        border: 2px solid black;
+        width: 50%;
+    }
+    .texto > h1{
+        text-align: left;
+       width: 100%;
+
+    }
+
+    .texto > p{
+        text-align: left;
+    }
+
+    .mock{
+        border: 2px solid orangered;
+        width: 100%;
+        
+   
+    }
+
+    .imock{
+        width: 100%;
+    }
+
+}
