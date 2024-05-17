@@ -5,8 +5,9 @@
     
     
     body{
-        min-width: 900px;
-        
+        min-width: 1350px;
+        margin: auto auto;
+       
 
     }
 
@@ -29,12 +30,14 @@
     }
     #logo2{
         width: 15%;
+        margin-left: 30px;
     }
 
     #botaoheader{
         width: 180px;
         height: 35px;
         border-radius: 30px;
+        margin-right: 100px;
     }
 
     div.texto{
@@ -56,7 +59,7 @@
 
     }
     .texto > #botaofree{
-        margin-left: 25%;
+        margin-left: 150px;
         
     }
 
@@ -79,24 +82,175 @@
         display: grid;
         grid-template-columns: 50% 50%;
         grid-template-rows: 50% 50%;
-        height: 100vh;
-        
+        height: 60vh;
+        width: 90vw;
+        margin: auto auto;
+        justify-content: center;
     }
     #imagemconversation{
         grid-column: 2;
         grid-row-start: 1;
         grid-row-end: 3;
         height: 80%;
+        width: 65%;
+        margin-top: 30px;
+        
     }
 
     #growtogether > h1{
-        text-align: center;
+        text-align: left;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         font-style: normal;
-        font-size: 20px;
+        font-size: 30px;
         height: 30px;
-        margin-top: 200px;
-    }       
+        margin-top: 150px;
+        margin-left: 80px;
+    }
+    
+    #growtogether > p{
+        text-align: left;
+        margin-left: 55px;
+        margin-top: -10px;
+        font-size: 16px;
+        margin-right: 30px;
+    }
+
+
+
+/*Segunda DIV conversation*/
+
+div#conversation{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    height: 60vh;
+    width: 90vw;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#imgagemconversation2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-top: 30px;
+}
+
+#conversation > h1{
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    height: 30px;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+#conversation > p{
+    text-align: left;
+    margin-left: 55px;
+    margin-top: -10px;
+    font-size: 16px;
+    margin-right: 30px;
+}
+
+/*Terceira DIV USERS*/
+
+
+div#users{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    height: 60vh;
+    width: 90vw;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+#imagemusers{
+    grid-column: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    margin-top: 30px;
+}
+
+#users > h1{
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    height: 30px;
+    margin-top: 150px;
+    margin-left: 80px;
+}
+
+#users > p{
+    text-align: left;
+    margin-left: 55px;
+    margin-top: -10px;
+    font-size: 16px;
+    margin-right: 30px;
+}
+
+div#gratisbaixo{
+    width: 60%;
+    padding-top: 30px;
+    padding-bottom: 60px;
+   
+}
+div#gratisbaixo > h1{
+    font-size: 25px;
+}
+
+#gratisbaixo > button{
+    
+    font-size: 1em;
+    width: 300px;
+    padding: 25px;
+    margin-top: 20px;
+    
+}
+
+
+footer{
+    min-width: 100vw;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+   margin-left: -10px;
+    height: 60vh;
+      
+}
+
+#logofooter{
+    grid-column: 1;
+    margin-left: 100px;
+}
+
+#contatos{
+    grid-column: 1;
+    margin-left: 90px;
+       
+}
+
+#contatos > p{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+#links{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 10% 10% 10%;
+    margin-left: 100px;
+    margin-top: 95px;
+}
+
+#redes{
+    margin-top: 100px;
+}
 
 }
