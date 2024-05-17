@@ -12,44 +12,91 @@
 
     .primeira{        
         display: grid;
-        grid-template-columns: auto 1fr 1fr;
-        height: 500px;
-        width: 100vw;
+        grid-template-columns: 25% 25% 25% 25%;
+        height: 100vh;
         
-        
+                
     }
 
     .header{
         grid-column-start: 1;
-        grid-column-end: 4;
-        padding: 10px;
-        height: 30%;
+        grid-column-end: 5;
+        padding: 50px 20px 10px 20px;
+        padding-top: 40px;
+        height: 40%;
+        align-items: center;
                
+    }
+    #logo2{
+        width: 15%;
+    }
+
+    #botaoheader{
+        width: 180px;
+        height: 35px;
+        border-radius: 30px;
     }
 
     div.texto{
-        border: 2px solid black;
-        width: 50%;
+       
+        grid-column-start: 1;
+        grid-column-end: 3;
     }
     .texto > h1{
         text-align: left;
-       width: 100%;
-
+        margin-left: 50px;
+        margin-top: 80px;
+        font-size: 2.2em;
     }
 
     .texto > p{
         text-align: left;
+        margin-left: 30px;
+        margin-right: 150px;
+
+    }
+    .texto > #botaofree{
+        margin-left: 25%;
+        
     }
 
-    .mock{
-        border: 2px solid orangered;
-        width: 100%;
+    div.mock{
+     
+        grid-column-start: 3;
+        grid-column-end: 5;
         
    
     }
-
-    .imock{
-        width: 100%;
+    #imock{
+        margin-left: -20%;
+        margin-top: 0%;
+        padding-bottom: 60px;
     }
+    
+/* Primeira div growtogether*/
+
+    div#growtogether{
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+        height: 100vh;
+        
+    }
+    #imagemconversation{
+        grid-column: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        height: 80%;
+    }
+
+    #growtogether > h1{
+        text-align: center;
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        height: 30px;
+        margin-top: 200px;
+    }       
 
 }
